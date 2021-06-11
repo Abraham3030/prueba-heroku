@@ -1,0 +1,19 @@
+{
+  "name": "prueba-heroku",
+  "version": "1.0.0",
+  "description": "Servidor node express para desplegar en heroku",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "correr": "nodemon app.js"
+  },
+  "author": "José Abraham Montelongo Campos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
